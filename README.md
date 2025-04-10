@@ -3,6 +3,9 @@
 
 > Efficient collaborative decoding between edge-deployed small models and cloud-based large language models.
 
+ Demo
+![System Overview](Front end.png)
+
 ## 🧠 Overview
 
 This project implements **Token-Level Routing**, a novel **collaborative inference system** where a small on-device model performs the majority of decoding, but selectively routes **critical tokens** to a cloud-hosted **large language model (LLM)**.

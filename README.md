@@ -9,9 +9,6 @@
 🎥 **Watch the demo**:  
 [![Watch the demo](https://img.youtube.com/vi/Tr_ziV_PJT4/hqdefault.jpg)](https://www.youtube.com/watch?v=Tr_ziV_PJT4)
 
-📄 **Read our paper**:  
-[Token-Level Routing Inference System for Edge Devices](https://arxiv.org/abs/your-paper-link)
-
 ---
 
 ## 🧠 Overview

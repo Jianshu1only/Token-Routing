@@ -3,7 +3,7 @@
 
 > Efficient collaborative decoding between edge-deployed small models and cloud-based large language models.
 
- Demo
+## Demo
 ![System Overview](Front_end.png)
 
 ## 🧠 Overview

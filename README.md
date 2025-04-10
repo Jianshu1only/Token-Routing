@@ -4,7 +4,7 @@
 
 ## 🎬 Demo
 
-![System Overview](image/front_end.png)
+![System Overview](image/Front_end.png)
 
 🎥 **Watch the demo**:  
 [![Watch the demo](https://img.youtube.com/vi/Tr_ziV_PJT4/hqdefault.jpg)](https://www.youtube.com/watch?v=Tr_ziV_PJT4)

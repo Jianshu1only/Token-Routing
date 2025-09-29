@@ -206,7 +206,7 @@ with col4:
 if st.button("Start Inference") and prompt_input:
     output_area = st.empty()
     generated_text = ""
-    adjusted_threshold = threshold / 2
+    adjusted_threshold = threshold
     for chunk in run_inference(prompt_input, adjusted_threshold, max_tokens, inference_mode, stream=stream_mode):
         generated_text += chunk if stream_mode else chunk
         output_area.markdown(generated_text, unsafe_allow_html=True)

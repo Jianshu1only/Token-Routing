@@ -27,6 +27,18 @@ Cloud tokens print in cyan; a routing summary (local/cloud counts, route rate, l
 the end. `--dump-hidden <file>` writes per-step `(pos, token, routed, score, hidden[])` records as
 router training data.
 
+## Download models
+
+The model weights are not in the repo. Fetch the small GGUF (and optionally the large model) with:
+
+```bash
+./tools/route/download_model.sh                  # Qwen3-0.6B Q8_0 -> models/
+./tools/route/download_model.sh Q4_K_M           # a different quant
+./tools/route/download_model.sh Q8_0 --with-large  # also pull Qwen3-32B for SGLang
+```
+
+(The cloud Qwen3-32B is otherwise auto-downloaded by SGLang on launch.)
+
 ## Build
 
 From the llama.cpp root (this tree), `route` is already registered in `tools/CMakeLists.txt`:
